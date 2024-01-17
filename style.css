@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    background-image: url(all-img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+     display: flex;
+     /* align-items: center;
+     justify-content: center; */
+}
+.hedar-tex{
+    margin: auto;
+    color: white;
+   
+}
+.hedar-tex h1{
+    font-size: 50px;
+    font-weight: 700;
+}
