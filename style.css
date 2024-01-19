@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:  monospace;
 }
+/* <!-- header-section-start  --> */
 .header-container{
-    background-image: url(all-img/bg.jpg);
+    background-image: url(all-img/bg.jpg );
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,18 +13,20 @@
     height: 500px;
     text-align: center;
      display: flex;
-     /* align-items: center;
-     justify-content: center; */
+     align-items: center;
+     justify-content: center;
+    
 }
-.hedar-tex{
-    margin: auto;
+.hedar-tex {
+    /* margin: auto; */
     color: white;
-   
 }
 .hedar-tex h1{
     font-size: 50px;
     font-weight: 700;
+  
 }
+/* <!-- header-section-end --> */
 
 /* button start */
 .btn{
@@ -39,6 +43,107 @@
     font-weight: 700;
     margin-top: 5px; 
 }
-
-
 /* button end */
+
+/* <!-- donat-section start --> */
+.donat{
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+   margin: auto;
+}
+.donat p{
+    margin-top: 10px;
+}
+/* <!-- donat-section start --> */
+
+
+/* <!-- price  section start -->  */
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 200px;
+}
+.price h1{
+    margin: 2%;
+    box-shadow: 5px 10px 18px #eee;
+    padding: 35px;
+    border-radius: 5px; 
+}
+.box-active{
+    border: 2px solid tomato;
+    background-color: #f6dbdb ;
+    color: tomato;
+}
+/* price button sec. */
+.price-btn {
+   /* text-align: ; */
+ display: flex;
+ justify-content: center;
+ margin: 10px;
+}
+/* underline section  */
+hr{
+    width: 63%;
+   opacity: 0.3;
+  margin: auto;
+}
+.underline h4{
+    text-align: center;
+    margin: 10px;
+    opacity: 0.3;
+}
+/* underline section */
+
+/* <!-- price  section end -->  */
+
+/* plan heder section start */
+.plan-header {
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+   margin: auto;
+}
+.plan-header p{
+    margin-top: 10px;
+}
+/* plan heder section end */
+
+/* donate card start */
+.all-card{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.card{
+flex-basis: 25%;
+margin: 10px;
+}
+.card-body-1{
+    background-color: aqua;
+    padding:20px;
+    border-radius: 7px;
+    text-align: justify;
+}
+.card-body-2{
+    background-color: aquamarine;
+    padding:20px;
+    border-radius: 7px;
+    text-align: justify;
+}
+.card-body-3{
+background-color: rgb(131, 131, 209);
+padding:20px;
+border-radius: 7px;
+text-align: justify;
+}
+.card-tex h2{
+    margin-top: 10px;
+}
+.card-tex p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+/* donate card end*/
+
